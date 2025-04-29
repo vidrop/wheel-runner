@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         direction.z = forwardSpeed;
 
         if(controller.isGrounded){
-            if(Input.GetKeyDown(KeyCode.UpArrow)){
+            if(SwipeManager.swipeUp){
             Jump();
             }
         }
@@ -32,14 +32,14 @@ public class PlayerController : MonoBehaviour
 
         // gather the inputs the lane they should be
 
-        if(Input.GetKeyDown(KeyCode.RightArrow)){
+        if(SwipeManager.swipeRight){
             desiredLane++;
             if(desiredLane > 2) {
                 desiredLane = 2;
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.LeftArrow)){
+        if(SwipeManager.swipeLeft){
             desiredLane--;
             if(desiredLane < 0) {
                 desiredLane = 0;
