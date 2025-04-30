@@ -8,21 +8,31 @@ public class PlayerController : MonoBehaviour
 
     private int desiredLane = 1; // 0=left 1=middle 2=right
     public float laneDistance = 4; // distance between two lanes
+
+    public bool isGrounded;
     
     public float jumpForce;
     public float gravity = -20;
+
+    public Animator animator;
 
     // start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
         controller = GetComponent<CharacterController>();
     }
 
-    // update is called once per frame
+    //update is called once per frame
     void Update(){
         if(!PlayerManager.isGameStarted){
             return;
         }
+
+        animator.SetBool("isGameStarted", true);
+
         direction.z = forwardSpeed;
+
+        isGrounded = controller.isGrounded;
+        animator.SetBool("isGrounded", isGrounded);
 
         if(controller.isGrounded){
             if(SwipeManager.swipeUp){
@@ -33,7 +43,7 @@ public class PlayerController : MonoBehaviour
             direction.y += gravity*Time.deltaTime;
         }
 
-        // gather the inputs the lane they should be
+        //gather the inputs the lane they should be
 
         if(SwipeManager.swipeRight){
             desiredLane++;
