@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class SwipeManager : MonoBehaviour
-{
+public class SwipeManager : MonoBehaviour{
     public static bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     private bool isDraging = false;
     private Vector2 startTouch, swipeDelta;
@@ -42,8 +41,7 @@ public class SwipeManager : MonoBehaviour
 
         //Calculate the distance
         swipeDelta = Vector2.zero;
-        if (isDraging)
-        {
+        if (isDraging){
             if (Input.touches.Length < 0)
                 swipeDelta = Input.touches[0].position - startTouch;
             else if (Input.GetMouseButton(0))
@@ -51,21 +49,18 @@ public class SwipeManager : MonoBehaviour
         }
 
         //Did we cross the distance?
-        if (swipeDelta.magnitude > 100)
-        {
+        if (swipeDelta.magnitude > 100){
             //Which direction?
             float x = swipeDelta.x;
             float y = swipeDelta.y;
-            if (Mathf.Abs(x) > Mathf.Abs(y))
-            {
+            if (Mathf.Abs(x) > Mathf.Abs(y)){
                 //Left or Right
                 if (x < 0)
                     swipeLeft = true;
                 else
                     swipeRight = true;
             }
-            else
-            {
+            else{
                 //Up or Down
                 if (y < 0)
                     swipeDown = true;
@@ -78,8 +73,7 @@ public class SwipeManager : MonoBehaviour
 
     }
 
-    private void Reset()
-    {
+    private void Reset(){
         startTouch = swipeDelta = Vector2.zero;
         isDraging = false;
     }
