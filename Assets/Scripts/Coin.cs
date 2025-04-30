@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour{
+public class Coin : MonoBehaviour{
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
         
@@ -13,6 +13,7 @@ public class NewMonoBehaviourScript : MonoBehaviour{
 
     private void OnTriggerEnter(Collider other){
         if(other.tag == "Player"){
+            FindFirstObjectByType<AudioManager>().PlaySound("PickUpCoin");
             PlayerManager.numberOfCoins += 1;
             Destroy(gameObject);
         }

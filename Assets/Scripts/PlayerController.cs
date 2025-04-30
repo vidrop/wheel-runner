@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
     private void OnControllerColliderHit(ControllerColliderHit hit){
         if(hit.transform.tag == "Obstacle"){
             PlayerManager.gameOver = true;
+            FindFirstObjectByType<AudioManager>().PlaySound("GameOver");
         }
     }
 
