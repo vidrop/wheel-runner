@@ -3,9 +3,9 @@
 ## Preview
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="readme/1.png" style="height: 400px; width: auto; object-fit: contain;" />
-  <img src="readme/2.png" style="height: 400px; width: auto; object-fit: contain;" />
-  <img src="readme/3.png" style="height: 400px; width: auto; object-fit: contain;" />
+  <img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
+  <img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
+  <img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
 </div>
 
 ## View Project
