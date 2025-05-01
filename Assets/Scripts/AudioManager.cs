@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour{
 
@@ -12,7 +13,14 @@ public class AudioManager : MonoBehaviour{
             s.source.volume = s.volume;
         }
 
-        PlaySound("MainTheme");
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        if(currentScene == "Menu"){
+            PlaySound("Menu");
+        }
+        else if(currentScene == "Level"){
+            PlaySound("Level");
+        }
     }
 
     public void PlaySound(string name){
