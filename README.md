@@ -12,10 +12,6 @@
 
 ### Click here: https://tzolic.itch.io/wheel-runner
 
-<iframe frameborder="0" src="https://itch.io/embed/3521426" width="552" height="167">
-  <a href="https://tzolic.itch.io/wheel-runner">Wheel Runner by tzolic</a>
-</iframe>
-
 ## Tools Used
 
 - Game Engine: Unity
