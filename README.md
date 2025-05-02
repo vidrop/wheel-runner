@@ -2,9 +2,9 @@
 
 ## Preview
 
-  <img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
-  <img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
-  <img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
+![](readme/1.png)
+![](readme/2.png)
+![](readme/3.png)
 
 ## View Project
 
