@@ -21,7 +21,7 @@
 
 ## Target Audience(s): For Who Did I Build This?
 
-- People who will grade me in my game development class
+- People who will grade my game development assignment
 
 ## Key Features
 
