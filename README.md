@@ -34,12 +34,12 @@
 - Clone this repository
 - Open the `wheel_runner` folder in Unity
 
-## License
-
-### Click here: [MIT](LICENSE)
-
 ## Source(s)
 
 https://youtube.com/playlist?list=PL0WgRP7BtOez8O7UAQiW0qAp-XfKZXA9W&si=nAuK5UxWvGlNB1rY
 
 https://github.com/Chaker-Gamra/Endless-Runner-Game
+
+## License
+
+### Click here: [MIT](LICENSE)
