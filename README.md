@@ -2,9 +2,9 @@
 
 ## Preview
 
-![](readme/1.png)
-![](readme/2.png)
-![](readme/3.png)
+<img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
+<img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
+<img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
 
 ## View Project
 
@@ -17,11 +17,11 @@
 
 ## Goal(s): Why Did I Build This?
 
-1. Complete an assignment for my game development class
+- Complete an assignment for my game development class
 
 ## Target Audience(s): For Who Did I Build This?
 
-1. People who will grade game development assignment
+- People who will grade me in my game development class
 
 ## Key Features
 
@@ -31,8 +31,8 @@
 
 ## How To Install This?
 
-1. Clone this repository
-2. Open the `wheel_runner` folder in Unity
+- Clone this repository
+- Open the `wheel_runner` folder in Unity
 
 ## License
 
