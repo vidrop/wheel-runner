@@ -1,45 +1,39 @@
-# Wheel Runner: A 3D Endless Runner Game
+# wheel runner: a 3D endless runner game
 
-## Preview
+## view project
 
-<img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
-<img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
-<img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
+### click here: https://tzolic.itch.io/wheel-runner
 
-## View Project
+## tools used
 
-### Click here: https://tzolic.itch.io/wheel-runner
+- game engine: Unity
+- backend: C#
 
-## Tools Used
+## goal(s): why did I build this?
 
-- Game Engine: Unity
-- Backend: C#
+- complete an assignment for my game development class
 
-## Goal(s): Why Did I Build This?
+## target audience(s): for who did I build this?
 
-- Complete an assignment for my game development class
+- people who will grade my game development assignment
 
-## Target Audience(s): For Who Did I Build This?
+## key features
 
-- People who will grade my game development assignment
+- engineered an infinite level generation system that dynamically constructs the game path as the player progresses
+- implemented fluid player movement mechanics including running, jumping, and sliding with touchscreen swipe gestures
+- built gameplay systems such as real-time scoring, interactive UI elements (menus, score display), and sound effect management
 
-## Key Features
+## how to install this?
 
-- Engineered an infinite level generation system that dynamically constructs the game path as the player progresses
-- Implemented fluid player movement mechanics including running, jumping, and sliding with touchscreen swipe gestures
-- Built gameplay systems such as real-time scoring, interactive UI elements (menus, score display), and sound effect management
+- clone this repository
+- open the `wheel_runner` folder in Unity
 
-## How To Install This?
-
-- Clone this repository
-- Open the `wheel_runner` folder in Unity
-
-## Source(s)
+## source(s)
 
 https://youtube.com/playlist?list=PL0WgRP7BtOez8O7UAQiW0qAp-XfKZXA9W&si=nAuK5UxWvGlNB1rY
 
 https://github.com/Chaker-Gamra/Endless-Runner-Game
 
-## License
+## license
 
-### Click here: [MIT](LICENSE)
+### click here: [MIT](LICENSE)
