@@ -14,13 +14,6 @@ public class AudioManager : MonoBehaviour{
         }
 
         string currentScene = SceneManager.GetActiveScene().name;
-
-        if(currentScene == "Menu"){
-            PlaySound("Menu");
-        }
-        else if(currentScene == "Level"){
-            PlaySound("Level");
-        }
     }
 
     public void PlaySound(string name){
