@@ -6,25 +6,20 @@
 
 ### click here: https://tzolic.itch.io/wheel-runner
 
-## tools used
-
-- game engine: Unity
-- backend: C#
-
-## goal(s): why did I build this?
+## purpose(s): why did I build this?
 
 - complete an assignment for my game development class
 
-## target audience(s): who is this for?
+## tools used: how did I build this?
 
-- people who will grade my game development assignment
+- game engine: Unity
+- backend: C#
 
 ## key features
 
 - engineered an infinite level generation system to create a dynamic, non-repetitive gameplay experience, achieving endless gameplay with optimized performance
 - implemented fluid player movement mechanics (running, jumping, sliding) to ensure intuitive controls, delivering engaging player interactions with minimal input lag
 - built gameplay systems (scoring, UI, sound effects) to enhance usability and player immersion, creating a polished user experience with responsive design
-
 
 ## source(s)
 
