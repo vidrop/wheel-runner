@@ -1,32 +1,14 @@
-# wheel runner
-
-### a 3D endless runner game
-
-## view project
-
-### click here: https://tzolic.itch.io/wheel-runner
-
-## purpose(s): why did I build this?
-
-- complete an assignment for my game development class
-
-## tools used: how did I build this?
-
-- game engine: Unity
-- backend: C#
-
-## key features
-
-- engineered an infinite level generation system to create a dynamic, non-repetitive gameplay experience, achieving endless gameplay with optimized performance
-- implemented fluid player movement mechanics (running, jumping, sliding) to ensure intuitive controls, delivering engaging player interactions with minimal input lag
-- built gameplay systems (scoring, UI, sound effects) to enhance usability and player immersion, creating a polished user experience with responsive design
-
-## source(s)
-
-https://youtube.com/playlist?list=PL0WgRP7BtOez8O7UAQiW0qAp-XfKZXA9W&si=nAuK5UxWvGlNB1rY
-
-https://github.com/Chaker-Gamra/Endless-Runner-Game
-
-## license
-
-### click here: [MIT](LICENSE)
+# wheel runner: a 3d endless runner game
+![2](2.png)
+## 🌐 view project
+### 👉 click here: https://vidrop.itch.io/wheel-runner
+## 🎯 why I built it
+### ❗ problem
+needed to build a cross-platform 3d game from scratch for a game development module
+### 🧠 solution
+built a simplified 3d endless runner inspired by subway surfers with an infinite level generation system and swipe controls for
+cross-platform play
+### ⭐ result
+achieved an a+ grade and published the game on itch.io, attracting 120+ players
+## 🛠️ tools used
+unity, c#
