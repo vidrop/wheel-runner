@@ -12,7 +12,7 @@ cross-platform play
 achieved an a+ grade and published the game on itch.io, attracting 120+ players
 ## 🛠️ tools used
 unity, c#
-## ℹ️ sources
+## ℹ️ source(s)
 https://youtube.com/playlist?list=PL0WgRP7BtOez8O7UAQiW0qAp-XfKZXA9W&si=nAuK5UxWvGlNB1rY
 
 https://github.com/Chaker-Gamra/Endless-Runner-Game
